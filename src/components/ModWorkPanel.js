@@ -1,12 +1,17 @@
 import React from 'react'
 
 class ModWorkPanel extends React.Component {
+
+      clickClose=()=>{
+            this.props.onCLoseForm()
+      }
+
       render() {
             return (
                   <div className="panel panel-info">
                         <div className="panel-heading">
                               <h3 className="panel-title">Adding Work
-                                    <span className="fa fa-times-circle text-right " aria-hidden="true"></span>
+                                    <span className="fa fa-times-circle text-right " aria-hidden="true" onClick={this.clickClose}></span>
                               </h3>
 
                         </div>
