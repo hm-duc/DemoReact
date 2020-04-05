@@ -37,11 +37,15 @@
   }
 }
 
-.text-right{
-      float: right;
-      cursor: pointer;
+.text-right {
+  float: right;
+  cursor: pointer;
 }
 
-.mt-20{
-      margin-top: 20px;
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-15 {
+  margin-top: 15px;
 }

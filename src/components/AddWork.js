@@ -7,7 +7,7 @@ class AddWork extends React.Component{
                         <span className="fa fa-plus"> Add Work</span>
                   </button>
             )
-      }
+      }     
 }
 
 export default AddWork
